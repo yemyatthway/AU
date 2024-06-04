@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auston university Myanmar</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image" href="images/11.webp">
+    <script src="https://kit.fontawesome.com/bb17e47804.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">    
+        <nav>
+            <h1 class="logo">AUSTON</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" style="color: #000000;"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">CAMPUS</a></li>
+                    <li><a href="#">ADMISSIONs & FEES</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" style="color: rgb(253, 204, 10);"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>The Best Way To Predict The Future Is To Invent It</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sapiente tempore deleniti enim. <br>Velit perspiciatis libero odio ullam alias nam, non voluptatem omnis expedita quisquam.</p>
+            <a href="#" class="view_bottom">View Courses</a>
+        </div>
+
+
+    </section>
+
+<!-- ---JavaScript for toggle Menu--- -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+
+</body>
+</html>
